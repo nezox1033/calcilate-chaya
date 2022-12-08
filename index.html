@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="ramka">
+        <form>
+            <h1>Калькулятор чаевых</h1>
+
+            <label>Сумма по счету
+            <input type="text" class="sumByCheck"/></label>
+        </form>
+        <form>
+            <label>Качество обслуживания
+                <select class="tips">
+                    <option value="0">Плохое (0%)</option>
+                    <option value="0.05">Нормальное (5%)</option>
+                    <option value="0.1">Хорошее (10%)</option>
+                    <option value="0.15">Отличное (15%)</option>
+                </select>
+            </label>
+        </form>
+        <form>
+            <label>Количество человек
+                <input type="text" class="inputText">
+            </label>
+
+            <button class="btn-calculate">ПОСЧИТАТЬ</button>
+            <button class="btn-reset">СБРОСИТЬ</button>
+        </form>
+
+            <p class="tip">Чаевые: <span class="tipValue">0</span></p>
+            <p class="all">Всего: <span class="allValue">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

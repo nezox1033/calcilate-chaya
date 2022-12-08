@@ -1,0 +1,54 @@
+h1{
+    font-size: 60px;
+    color: #FFDC40;
+}
+
+div{
+    height: 40%;
+    width: 30%;
+    margin-left: 70px;
+    color: white;
+}
+
+.ramka{
+    height: 400px;
+    width:400px;
+    background-color: #360160;
+    border-radius: 5px;
+}
+
+.sumByCheck{
+    border-radius: 5px;
+    border-color: #360160;
+}
+
+.tips{
+    border-radius: 5px;
+    border-color: #360160;
+}
+
+.inputText{
+    border-radius: 5px;
+    border-color: #360160;
+}
+
+.btn-calculate{
+    border-radius: 12px;
+    background-color: #FFDC40;
+    width: 100px;
+    height: 30px;
+    border-color: #360160;
+}
+
+.btn-reset{
+    border-radius: 12px;
+    background-color: #7C7A7A;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-color: #360160;
+}
+
+
+
+
